@@ -1,0 +1,36 @@
+<DOCTYPE html>
+<html>
+<head>  
+	<title> L1 Newbie</title>
+</head>
+<body bgcolor = "Tomato">
+	<h1>Jianyi Guan</h1>
+	<h2>A YouTube Vedio</h2>
+
+	<iframe width="560" height="315" 
+	src="https://www.youtube.com/embed/weqDCGg0GYs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<h2>A Google Map</h2>
+
+<<div id="map" style="width:500px;height:400px;background:yellow"></div>
+
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(47.251099,-123.1251451),
+    zoom: 7,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCW-_TO1yGc8FQ5pyiW96lonO7Zfo43opE&callback=myMap"></script>
+
+<h2>L2 Apprentice</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n3kNlFMXslo?start=180" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+</body>
+</html>
